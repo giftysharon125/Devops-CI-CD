@@ -1,12 +1,12 @@
 # 🚀 DevOps CI/CD Project
 
-A full-stack web application integrated with a CI/CD pipeline using GitHub and Jenkins.
+A full-stack web application integrated with a CI/CD pipeline using GitHub and Docker.
 
 ## 📌 Project Overview
 
-This project demonstrates a basic DevOps workflow:
+A containerized application with an automated CI/CD pipeline using GitHub Actions and Docker.
 
-Code changes are pushed to GitHub, Jenkins automatically fetches the code, installs dependencies, runs tests, and starts the application.
+This project automatically builds a Docker image and pushes it to Docker Hub whenever code is pushed to the main branch.
 
 ## 🛠️ Technologies Used
 
@@ -22,7 +22,31 @@ Code changes are pushed to GitHub, Jenkins automatically fetches the code, insta
 ### DevOps Tools
 - Git
 - GitHub
-- Jenkins
-- CI/CD Pipeline
+- Docker
 
 ## 📂 Project Structure
+
+   Developer
+       |
+       v
+GitHub Repository
+       |
+       v
+  GitHub Actions
+       |
+       v
+   Docker Build
+       |
+       v
+    Docker Hub
+       |
+       v
+   Deployment
+
+## Features
+
+✅ Dockerized application  
+✅ Automated build process  
+✅ Automated Docker image push  
+✅ CI/CD workflow using GitHub Actions  
+✅ Secure credentials using GitHub Secrets  
